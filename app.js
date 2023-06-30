@@ -13,27 +13,27 @@ app.set ('view engine', 'handlebars')
 //  app.listen(port, () => {
 //    console.log(`Express is listening on  http://localhost:${port}`)
 //  })
-//  app.use(express.static('public'));
+// app.use(express.static('public'));
 
 
-//  app.get('/', (req, res) => {
-//    res.sendFile(__dirname + '/views/index.html');
-//  });
+  app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/views/index.html');
+  });
 
 
-//  app.get('/about', (req, res) => {
-//    res.sendFile(__dirname + '/views/about.html');
-//  });
+  app.get('/about', (req, res) => {
+    res.sendFile(__dirname + '/views/about.html');
+  });
 
 
-//  app.get('/portfolio', (req, res) => {
-//    res.sendFile(__dirname + '/views/portfolio.html');
-//  });
+  app.get('/portfolio', (req, res) => {
+    res.sendFile(__dirname + '/views/portfolio.html');
+  });
 
 
-//  app.get('/contact', (req, res) => {
-//    res.sendFile(__dirname + '/views/contact.html');
-//  });
+  app.get('/contact', (req, res) => {
+    res.sendFile(__dirname + '/views/contact.html');
+  });
 
  
 //  app.listen(port, () => {
