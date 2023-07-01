@@ -30,7 +30,7 @@ app.get('/contact', (req, res) => {
   res.send('<h1>Contact</h1>');
 });
 
-// 啟動應用程式
+// 監聽應用程式
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
 });
