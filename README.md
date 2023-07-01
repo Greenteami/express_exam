@@ -1,8 +1,8 @@
 # express_exam
 
 使用git bash執行 nodemon app.js啟動
-瀏覽器中貼上 http://localhost:3000，看到首頁的內容，並
-透過點擊導覽列上的按鈕切換到不同的頁面。
+瀏覽器中貼上 http://localhost:3000，
+可看到首頁的內容，點擊導覽列上的按鈕切換到不同的頁面。
 
 const express = require('express');
 // 引入所需的模組
