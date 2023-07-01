@@ -4,7 +4,6 @@
 瀏覽器中貼上 http://localhost:3000，
 可看到首頁的內容，點擊導覽列上的按鈕切換到不同的頁面。
 
-const express = require('express');
 // 引入所需的模組
 const express = require('express');
 
