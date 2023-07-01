@@ -1,4 +1,3 @@
-const express = require('express');
 // 引入所需的模組
 const express = require('express');
 
